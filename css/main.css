@@ -1,1 +1,11 @@
 /* write your css here */
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+li {
+    border: 1px solid white;
+    color: white;
+    padding: 0.5em;
+    line-height: 1;
+}
