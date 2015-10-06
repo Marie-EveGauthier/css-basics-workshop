@@ -8,16 +8,26 @@ html {
 
 .dialog-box {
   background-color: #d2d2d2;
+  padding: 9px;
+  position: relative;
 }
 .dialog-box__title {
   font-family: serif;
+  margin-top: 0px;
 }
 .dialog-box__content {
   background-color: #f2f2f2;
+  font-family: serif;
+  padding: 8px;
 }
+
 .dialog-box__close {
   border: 2px solid white;
   background-color: tomato;
   width: 24px;
   height: 24px;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  
 }
