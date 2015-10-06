@@ -1,6 +1,16 @@
 /* write your css here */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 nav {
     background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    padding: 0.5em;
 }
 
 li {
