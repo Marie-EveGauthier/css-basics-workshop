@@ -18,4 +18,5 @@ li {
     color: white;
     padding: 0.5em;
     line-height: 1;
+    display: inline-block;
 }
