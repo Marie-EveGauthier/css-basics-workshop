@@ -5,3 +5,19 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+.dialog-box {
+  background-color: #d2d2d2;
+}
+.dialog-box__title {
+  font-family: serif;
+}
+.dialog-box__content {
+  background-color: #f2f2f2;
+}
+.dialog-box__close {
+  border: 2px solid white;
+  background-color: tomato;
+  width: 24px;
+  height: 24px;
+}
