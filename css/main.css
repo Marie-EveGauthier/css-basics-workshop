@@ -6,3 +6,28 @@ html {
   box-sizing: inherit;
 }
 
+.grid {
+  display: inline-block;
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 40em) { 
+  img {
+    width: 96%;
+    padding: 6px;
+  }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+  img {
+    width: 47%;
+    padding: 6px;
+  }
+}
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { 
+  img {
+    width: 28%;
+    padding: 6px;
+  }
+} 
